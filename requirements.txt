@@ -1,0 +1,5 @@
+# O projeto usa apenas a biblioteca padrão do Python 3.12+.
+# Nenhum pacote é necessário para EXECUTAR a simulação.
+#
+# Ferramentas de desenvolvimento (testes, lint, tipagem):
+#   pip install -r requirements-dev.txt

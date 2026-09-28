@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lpc-sim"
+version = "1.0.0"
+description = "Simulação exaustiva de decodificação do código de produto LPC 4x4 (conversão do projeto Java/Eclipse)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []  # somente biblioteca padrão
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5", "mypy>=1.10"]
+
+[project.scripts]
+lpc-sim = "lpc_sim.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-m 'not slow'"
+markers = ["slow: testes longos (rode com: pytest -m slow)"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM"]
+# N802/N803/N806/N815/N816: nomes de domínio herdados do Java (D, Cr, SEr, EAc...)
+ignore = ["N802", "N803", "N806", "N815", "N816"]
+
+[tool.mypy]
+python_version = "3.12"
+mypy_path = "src"
+strict = true

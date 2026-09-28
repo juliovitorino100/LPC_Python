@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LPC: main (igual ao Java)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "lpc_sim",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LPC: main (paralelo, todos os núcleos)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "lpc_sim",
+      "args": ["--workers", "0"],
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LPC: main2 (igual ao Java)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "lpc_sim",
+      "args": ["--preset", "main2"],
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LPC: teste rápido (até 2 erros)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "lpc_sim",
+      "args": ["--max-errors", "2", "--max-iterations", "1"],
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "integratedTerminal"
+    }
+  ]
+}

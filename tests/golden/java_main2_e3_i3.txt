@@ -1,0 +1,1536 @@
+
+AlgSE0_DCO (BasicLoop) + AlgDE : #Errors=0
+100 
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 464
+	errorDeDecoding = 208
+
+AlgSE1_DCO (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE2_DCO (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE3_DCO (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE0_DCO (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 88
+	errorDeDecoding = 88
+
+AlgSE1_DCO (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 3744
+	errorDeDecoding = 3488
+
+AlgSE1_DCO (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 464
+	errorDeDecoding = 208
+
+AlgSE2_DCO (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE3_DCO (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE0_DCO (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 868
+	errorDeDecoding = 612
+
+AlgSE1_DCO (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 868
+	errorDeDecoding = 612
+
+AlgSE2_DCO (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 868
+	errorDeDecoding = 612
+
+AlgSE3_DCO (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 868
+	errorDeDecoding = 612
+
+AlgSE0_DCO (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCO (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCO (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCO (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCO (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE1_DCO (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE2_DCO (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE3_DCO (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 448
+	errorDeDecoding = 192
+
+AlgSE1_DCOC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 88
+	errorDeDecoding = 88
+
+AlgSE1_DCOC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 3728
+	errorDeDecoding = 3472
+
+AlgSE1_DCOC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 448
+	errorDeDecoding = 192
+
+AlgSE2_DCOC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 916
+	errorDeDecoding = 660
+
+AlgSE1_DCOC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 916
+	errorDeDecoding = 660
+
+AlgSE2_DCOC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 916
+	errorDeDecoding = 660
+
+AlgSE3_DCOC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 916
+	errorDeDecoding = 660
+
+AlgSE0_DCOC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DCOC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE1_DCOC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE2_DCOC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE3_DCOC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE0_DRC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 464
+	errorDeDecoding = 208
+
+AlgSE1_DRC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE2_DRC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE3_DRC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE0_DRC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 88
+	errorDeDecoding = 88
+
+AlgSE1_DRC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 3744
+	errorDeDecoding = 3488
+
+AlgSE1_DRC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 464
+	errorDeDecoding = 208
+
+AlgSE2_DRC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 308
+	errorDeDecoding = 52
+
+AlgSE3_DRC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 272
+	errorDeDecoding = 16
+
+AlgSE0_DRC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE1_DRC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE2_DRC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE3_DRC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE0_DRC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE1_DRC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE2_DRC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE3_DRC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 256
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (BasicLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (BasicLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (BasicLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 532
+	errorDeDecoding = 276
+
+AlgSE1_DRCC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE2_DRCC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE3_DRCC (BasicLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE0_DRCC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (InvertLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (InvertLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 88
+	errorDeDecoding = 88
+
+AlgSE1_DRCC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (InvertLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 3728
+	errorDeDecoding = 3472
+
+AlgSE1_DRCC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 532
+	errorDeDecoding = 276
+
+AlgSE2_DRCC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE3_DRCC (InvertLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE0_DRCC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (PriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (PriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (PriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE1_DRCC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE2_DRCC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE3_DRCC (PriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 340
+	errorDeDecoding = 84
+
+AlgSE0_DRCC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (FairPriorityLoop) + AlgDE : #Errors=0
+
+	numberOfDecodigns = 1
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (FairPriorityLoop) + AlgDE : #Errors=1
+2 4 6 8 10 12 14 16 18 20 22 25 27 29 31 33 35 37 39 41 43 45 47 50 52 54 56 58 60 62 64 66 68 70 72 75 77 79 81 83 85 87 89 91 93 95 97 100 
+	numberOfDecodigns = 48
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE1_DRCC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE2_DRCC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE3_DRCC (FairPriorityLoop) + AlgDE : #Errors=2
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 1128
+	errorSeDecoding = 0
+	errorDeDecoding = 0
+
+AlgSE0_DRCC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 292
+	errorDeDecoding = 36
+
+AlgSE1_DRCC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 292
+	errorDeDecoding = 36
+
+AlgSE2_DRCC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 292
+	errorDeDecoding = 36
+
+AlgSE3_DRCC (FairPriorityLoop) + AlgDE : #Errors=3
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
+	numberOfDecodigns = 17296
+	errorSeDecoding = 292
+	errorDeDecoding = 36
