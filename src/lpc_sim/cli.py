@@ -19,6 +19,7 @@ import contextlib
 import csv
 import dataclasses
 import os
+import random
 import sys
 from collections.abc import Callable, Sequence
 from enum import IntEnum
@@ -35,8 +36,12 @@ from .simulation_system import (
     make_executor,
     run_sweep,
 )
+from .training_data import DEFAULT_FILE_NAME, LAYOUTS, count_rows, write_training_data
 
 PRESETS: dict[str, SweepConfig] = {"main": MAIN_CONFIG, "main2": MAIN2_CONFIG}
+
+MAX_TRAINING_ROWS = 5_000_000
+"""Acima disso (~10 min e ~1 GB), ``--dados-treinamento`` exige ``--forcar``."""
 
 
 def _non_negative(text: str) -> int:
@@ -98,6 +103,35 @@ def build_parser() -> argparse.ArgumentParser:
         help="salva os contadores de cada teste em CSV (modelo, laço, nº de erros, nº de "
         "iterações, decodificações, falhas SE, falhas DE)",
     )
+    training = parser.add_argument_group(
+        "dados de treinamento",
+        "Em vez da simulação, gera uma linha por decodificação (palavra recebida de 48 bits + rótulo 1/-1) "
+        "e acrescenta ao arquivo. Usa os mesmos modelos, laços, nº de erros e iterações da varredura.",
+    )
+    training.add_argument(
+        "--dados-treinamento",
+        nargs="?",
+        const=DEFAULT_FILE_NAME,
+        metavar="ARQUIVO",
+        help=f'arquivo de saída (padrão: "{DEFAULT_FILE_NAME}"); as linhas são acrescentadas',
+    )
+    training.add_argument(
+        "--layout",
+        choices=LAYOUTS,
+        default="matriz",
+        help="ordem dos 48 bits: matriz = cada linha D+Cr+Pr, depois Cc e Pc; blocos = D, Cr, Pr, Cc, Pc",
+    )
+    training.add_argument(
+        "--dados-aleatorios",
+        action="store_true",
+        help="usa um D aleatório em cada padrão, em vez da matriz de zeros",
+    )
+    training.add_argument("--semente", type=int, help="semente do gerador aleatório (reprodutibilidade)")
+    training.add_argument(
+        "--forcar",
+        action="store_true",
+        help=f"permite gerar mais de {MAX_TRAINING_ROWS:,} linhas".replace(",", "."),
+    )
     return parser
 
 
@@ -123,6 +157,8 @@ def config_from_args(args: argparse.Namespace) -> SweepConfig:
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     config = config_from_args(args)
+    if args.dados_treinamento:
+        return _training_main(args, config)
     workers = args.workers if args.workers > 0 else (os.cpu_count() or 1)
 
     executor = make_executor(workers)
@@ -150,4 +186,30 @@ def main(argv: Sequence[str] | None = None) -> int:
     finally:
         if executor is not None:
             executor.shutdown(cancel_futures=True)
+    return 0
+
+
+def _training_main(args: argparse.Namespace, config: SweepConfig) -> int:
+    """``--dados-treinamento``: sequencial (``--workers`` não se aplica)."""
+    expected = count_rows(config)
+    if expected > MAX_TRAINING_ROWS and not args.forcar:
+        print(
+            f"Erro: a varredura geraria {expected:,} linhas (limite {MAX_TRAINING_ROWS:,}). Reduza "
+            "--max-errors/--max-iterations/--correction-model/--loop-type ou use --forcar.".replace(",", "."),
+            file=sys.stderr,
+        )
+        return 1
+    rng = random.Random(args.semente) if args.dados_aleatorios else None
+    print(f"Gerando {expected:,} linhas em '{args.dados_treinamento}'...".replace(",", "."), flush=True)
+    try:
+        total, failures = write_training_data(
+            args.dados_treinamento, config, layout=args.layout, rng=rng, progress=sys.stdout
+        )
+    except KeyboardInterrupt:
+        print("\nInterrompido pelo usuário (as linhas já gravadas permanecem no arquivo).", file=sys.stderr)
+        return 130
+    except ValueError as exc:
+        print(f"Erro: {exc}", file=sys.stderr)
+        return 1
+    print(f"Total: {total} linhas ({total - failures} com rótulo 1, {failures} com rótulo -1)")
     return 0

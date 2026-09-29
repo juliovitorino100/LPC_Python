@@ -65,6 +65,22 @@ def decode_pattern(
     negócio exista num só lugar.
     """
     lpc_with_errors = LpcWithError(initial_lpc, error_pattern)
+    return decode_received(initial_lpc, lpc_with_errors, iterations_se, loop_type, correction_model)
+
+
+def decode_received(
+    initial_lpc: Lpc,
+    lpc_with_errors: LpcWithError,
+    iterations_se: int,
+    loop_type: LoopType | int,
+    correction_model: CorrectionModel | int,
+) -> tuple[bool, bool]:
+    """Como :func:`decode_pattern`, mas recebe a palavra já com os erros.
+
+    ``lpc_with_errors`` é **modificada** pela decodificação. Existe para quem
+    precisa ler a palavra recebida antes de decodificá-la (ver
+    :mod:`lpc_sim.training_data`) sem construí-la duas vezes.
+    """
     decoder_lpc.decoding_se(iterations_se, loop_type, correction_model, lpc_with_errors)
     if initial_lpc.is_equal(lpc_with_errors):
         return False, False

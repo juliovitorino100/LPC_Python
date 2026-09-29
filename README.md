@@ -22,12 +22,14 @@ lpc-python/
 │   ├── lpc.py               # Lpc.java
 │   ├── lpc_with_error.py    # LpcWithErrror.java
 │   ├── decoder_lpc.py       # DecoderLpc.java
-│   └── simulation_system.py # LpcSimulationSystem.java
+│   ├── simulation_system.py # LpcSimulationSystem.java
+│   └── training_data.py     # conjunto de treinamento (1 linha por decodificação)
 ├── tests/
 │   ├── golden/              # saídas geradas executando o código JAVA original
 │   ├── test_lpc.py
 │   ├── test_decoder.py
-│   └── test_simulation.py
+│   ├── test_simulation.py
+│   └── test_training_data.py
 ├── pyproject.toml
 ├── requirements.txt         # vazio de dependências (só biblioteca padrão)
 └── requirements-dev.txt     # pytest, ruff, mypy
@@ -77,10 +79,37 @@ python -m lpc_sim --correction-model DCO DRCC --loop-type BasicLoop PriorityLoop
 python -m lpc_sim --error-interval 0 16         # só bits de dados
 python -m lpc_sim --preset main > resultado.txt # salvar saída (texto, igual ao console)
 python -m lpc_sim --max-errors 5 --csv dados.csv > resultado.txt  # + dados em CSV
+python -m lpc_sim --max-errors 3 --max-iterations 2 --dados-treinamento  # ver abaixo
 pytest                                          # testes rápidos (~7 s)
 pytest -m slow                                  # testes longos (~1 min)
 ruff check . && mypy src
 ```
+
+### Dados de treinamento
+
+`--dados-treinamento [ARQUIVO]` troca a simulação pela geração de um conjunto de dados
+para treinar um modelo: **uma linha por decodificação** (cada padrão de erro de cada
+teste da varredura), acrescentada ao fim do arquivo (padrão: `Dados de Treinamento.csv`).
+O cabeçalho só é escrito se o arquivo for novo.
+
+| Colunas | Conteúdo |
+|---|---|
+| `correction_model`, `loop_type`, `iterations_se`, `num_errors` | identificação do teste |
+| 48 bits | palavra **recebida** (com os erros, antes da correção) |
+| `label` | `1` = `D` recuperado após AlgSE + AlgDE; `-1` = não recuperado |
+
+Ordem dos 48 bits (`--layout`):
+
+- `matriz` (padrão): cada linha da matriz estendida, `D00 D01 D02 D03 Cr00 Cr01 Cr02 Pr0`,
+  `D10 …` até `Pr3`; depois `Cc00…Cc03`, `Cc10…`, `Cc20…` e `Pc0…Pc3`;
+- `blocos`: todos os `D`, depois `Cr`, `Pr`, `Cc` e `Pc`.
+
+Por padrão os dados transmitidos são zero, como na simulação, e a palavra recebida é o
+próprio padrão de erro. `--dados-aleatorios` (com `--semente N` para reprodutibilidade)
+sorteia um `D` diferente para cada padrão. Os rótulos são os mesmos nos dois casos.
+
+A geração é sequencial (~10 mil linhas/s; `--workers` não se aplica). Varreduras acima de
+5 milhões de linhas exigem `--forcar`, porque o preset `main` completo teria ~703 milhões.
 
 ## Mapeamento Java → Python
 
