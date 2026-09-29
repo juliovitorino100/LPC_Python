@@ -4,3 +4,7 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Saídas geradas pelo simulador
+*.csv
+resultado.txt
