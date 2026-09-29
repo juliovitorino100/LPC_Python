@@ -75,7 +75,8 @@ python -m lpc_sim --workers 0                   # main em paralelo (todos os nú
 python -m lpc_sim --max-errors 3 --max-iterations 2
 python -m lpc_sim --correction-model DCO DRCC --loop-type BasicLoop PriorityLoop
 python -m lpc_sim --error-interval 0 16         # só bits de dados
-python -m lpc_sim --preset main > resultado.txt # salvar saída
+python -m lpc_sim --preset main > resultado.txt # salvar saída (texto, igual ao console)
+python -m lpc_sim --max-errors 5 --csv dados.csv > resultado.txt  # + dados em CSV
 pytest                                          # testes rápidos (~7 s)
 pytest -m slow                                  # testes longos (~1 min)
 ruff check . && mypy src

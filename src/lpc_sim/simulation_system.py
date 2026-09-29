@@ -19,7 +19,7 @@ from __future__ import annotations
 
 import math
 import sys
-from collections.abc import Iterable, Iterator, Sequence
+from collections.abc import Callable, Iterable, Iterator, Sequence
 from concurrent.futures import Executor, ProcessPoolExecutor
 from dataclasses import dataclass
 from itertools import combinations
@@ -276,7 +276,24 @@ MAIN2_CONFIG = SweepConfig(
 """Equivalente a ``main2``: todos os modelos e laços, 0..5 erros, 0..3 iterações."""
 
 
-def run_sweep(config: SweepConfig, system: LpcSimulationSystem) -> None:
+@dataclass(frozen=True, slots=True)
+class TestResult:
+    """Uma linha de dados: identificação do teste + seus contadores finais."""
+
+    correction_model: str
+    loop_type: str
+    num_errors: int
+    iterations_se: int
+    number_of_decodings: int
+    error_se_decoding: int
+    error_de_decoding: int
+
+
+def run_sweep(
+    config: SweepConfig,
+    system: LpcSimulationSystem,
+    on_result: Callable[[TestResult], None] | None = None,
+) -> None:
     system.set_initial_lpc()
     system.set_error_interval(*config.error_interval)  # default (0, 48): todos os bits
     for model in config.correction_models:
@@ -287,7 +304,19 @@ def run_sweep(config: SweepConfig, system: LpcSimulationSystem) -> None:
                 system.set_number_of_errors(number_of_errors)
                 for number_of_iterations in range(config.max_iterations + 1):
                     system.set_iterations_se(number_of_iterations)
-                    system.run_test()
+                    counters = system.run_test()
+                    if on_result is not None:
+                        on_result(
+                            TestResult(
+                                correction_model=_label(CorrectionModel, model),
+                                loop_type=_label(LoopType, loop_type),
+                                num_errors=number_of_errors,
+                                iterations_se=number_of_iterations,
+                                number_of_decodings=counters.number_of_decodings,
+                                error_se_decoding=counters.error_se_decoding,
+                                error_de_decoding=counters.error_de_decoding,
+                            )
+                        )
 
 
 def make_executor(workers: int) -> ProcessPoolExecutor | None:

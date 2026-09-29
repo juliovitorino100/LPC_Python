@@ -58,3 +58,15 @@ def test_cli_quick_run(capsys: pytest.CaptureFixture[str]) -> None:
     out = capsys.readouterr().out
     assert "AlgSE0_DCOC (InvertLoop) + AlgDE : #Errors=1" in out
     assert "numberOfDecodigns = 48" in out
+
+
+def test_cli_csv_output(tmp_path: Path) -> None:
+    csv_path = tmp_path / "dados.csv"
+    assert cli_main(["--max-errors", "1", "--max-iterations", "0", "--csv", str(csv_path)]) == 0
+    rows = csv_path.read_text().splitlines()
+    assert rows[0] == (
+        "correction_model,loop_type,num_errors,iterations_se,"
+        "number_of_decodings,error_se_decoding,error_de_decoding"
+    )
+    assert rows[1] == "DCOC,InvertLoop,0,0,1,0,0"
+    assert rows[2] == "DCOC,InvertLoop,1,0,48,0,0"

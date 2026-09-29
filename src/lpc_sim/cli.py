@@ -15,6 +15,8 @@ Exemplos::
 from __future__ import annotations
 
 import argparse
+import contextlib
+import csv
 import dataclasses
 import os
 import sys
@@ -29,6 +31,7 @@ from .simulation_system import (
     MAIN_CONFIG,
     LpcSimulationSystem,
     SweepConfig,
+    TestResult,
     make_executor,
     run_sweep,
 )
@@ -89,6 +92,12 @@ def build_parser() -> argparse.ArgumentParser:
         default=1,
         help="processos paralelos; 1 = sequencial (saída idêntica ao Java); 0 = todos os núcleos",
     )
+    parser.add_argument(
+        "--csv",
+        metavar="ARQUIVO",
+        help="salva os contadores de cada teste em CSV (modelo, laço, nº de erros, nº de "
+        "iterações, decodificações, falhas SE, falhas DE)",
+    )
     return parser
 
 
@@ -118,7 +127,17 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     executor = make_executor(workers)
     try:
-        run_sweep(config, LpcSimulationSystem(executor=executor))
+        with contextlib.ExitStack() as stack:
+            on_result: Callable[[TestResult], None] | None = None
+            if args.csv:
+                csv_file = stack.enter_context(open(args.csv, "w", newline="", encoding="utf-8"))
+                writer = csv.writer(csv_file)
+                writer.writerow([field.name for field in dataclasses.fields(TestResult)])
+
+                def on_result(result: TestResult) -> None:
+                    writer.writerow(dataclasses.astuple(result))
+
+            run_sweep(config, LpcSimulationSystem(executor=executor), on_result=on_result)
     except KeyboardInterrupt:
         print("\nInterrompido pelo usuário.", file=sys.stderr)
         return 130

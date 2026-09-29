@@ -11,6 +11,7 @@ from .simulation_system import (
     DecodingCounters,
     LpcSimulationSystem,
     SweepConfig,
+    TestResult,
     decode_pattern,
     run_sweep,
 )
@@ -29,6 +30,7 @@ __all__ = [
     "LpcWithError",
     "LoopType",
     "SweepConfig",
+    "TestResult",
     "decode_pattern",
     "decoding_de",
     "decoding_se",
